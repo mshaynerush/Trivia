@@ -1,51 +1,60 @@
 
 *
 {
-  box-sizing: border-box;
-
+box-sizing: border-box;
 }
 
 body
 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: .9em;
-  line-height: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
+    line-height: 1.2em;
 
 }
 
 .trivia-container
 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .options
 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  justify-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: flex-start;
 }
 
 .category
 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .answer-button, .btn-category
 {
-  max-width: 250px;
-  min-width: 100px;
-  width: auto;
-  padding: 8px 12px;
-  margin: 5px;
-  border-radius: 6px;
-  border: 1px solid #333;
-  cursor: pointer;
+    max-width: 250px;
+    min-width: 100px;
+    width: auto;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    cursor: pointer;
 }
 
+.btn-correct
+{
+    background-color: hsl(100, 50%, 50%);
+    color: #FFF;
+}
 
+.btn-incorrect
+{
+    background-color: hsl(0, 50%, 50%);
+    color: #000;
+}
