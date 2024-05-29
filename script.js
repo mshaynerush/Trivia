@@ -27,7 +27,7 @@ function displayCategories() {
     let categories = [...new Set(questions.map(item => item.category))]
     
 
-    categories.forEach((category) => categoryField.innerHTML += "<button id='" + category + "' class='btn-category'>" + category + "</button>")
+    categories.forEach((category) => categoryField.innerHTML += "<button id='" + category + "' class='btn-category'>" + category.charAt(0).toUpperCase() + category.slice(1) + "</button>")
     
     categoryField.addEventListener('click', function (e) {
    
