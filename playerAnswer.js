@@ -44,21 +44,15 @@ function answerResult(answer, playerAnswer){
 }
 
 function highlightButtons(btn, isCorrect) {
-    console.log(isCorrect)
+
     answerButtons = document.getElementsByClassName('answer-button')
     for (i = 0; i < answerButtons.length; i++) {
-        answerButtons[i].setAttribute(
-            "style", "class = 'button'"
-        )
+        answerButtons[i].classList.remove('btn-incorrect')
+        answerButtons[i].classList.remove('btn-correct')
     }
-
     if (isCorrect) {
-        btn.setAttribute(
-            "style", "background-color: hsl(100, 50%, 50%);"
-        )
+        btn.classList.add('btn-correct')
     } else {
-        btn.setAttribute(
-            "style", "background-color: hsl(0, 50%, 50%);"
-        )
+        btn.classList.add('btn-incorrect')
     }
 }
