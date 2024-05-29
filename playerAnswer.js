@@ -48,7 +48,7 @@ function highlightButtons(btn, isCorrect) {
     answerButtons = document.getElementsByClassName('answer-button')
     for (i = 0; i < answerButtons.length; i++) {
         answerButtons[i].setAttribute(
-            "style", "class = 'button')"
+            "style", "class = 'button'"
         )
     }
 
