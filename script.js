@@ -10,7 +10,7 @@ App Name: General Trivia
 
 // Populate questions based on id of category clicked
 // Displays random question
-displayCategories
+displayCategories()
 
 
 // function setCategoryButton() { 
