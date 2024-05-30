@@ -8,8 +8,6 @@ App Name: General Trivia
 
 // populate and display category buttons
 
-displayCategories()
-
 
 // Populate questions based on id of category clicked
 // Displays random question
