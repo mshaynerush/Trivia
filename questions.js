@@ -37,8 +37,8 @@ questions = [
         "id":1,
         "category": "science",
         "question": "H2O is the chemical designation for which chemical?",
-        "options": {"1":"Chromium","2":"Plutonium","3":"Gold","4":"Oxygen"},
-        "answer": "Oxygen"
+        "options": {"1":"Chromium","2":"Plutonium","3":"Gold","4":"Water"},
+        "answer": "Water"
     },
 
     {
